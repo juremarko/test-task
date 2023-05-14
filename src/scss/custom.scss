@@ -1,0 +1,64 @@
+@import 'variables';
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "Ubuntu";
+    background-image: url("../assets/img/math_background.png");
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.flex-item {
+    text-align: center;
+}
+
+.error-color
+{
+    color: $dhimahi-error-color
+}
+
+.success-color
+{
+    color: $dhimahi-success-color
+}
+
+.margin-left-5
+{
+    margin-left: 5px;
+}
+
+
+
+
+.digit,
+.operator {
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.gradient-text-1 {
+    background: #006FFF;
+    background: linear-gradient(to right, #006FFF 0%, #36FFFF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logoImage {
+    max-width: 100px;
+    max-height: 100px;
+
+    width: 40px;
+}
